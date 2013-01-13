@@ -372,7 +372,6 @@ public class BBeat extends Activity {
 			}
 		});
 	
-		mPresetList.setGroupIndicator(getResources().getDrawable(R.drawable.empty));
 		mPresetList.setAdapter(adapter);
 		
 		// Expand all
